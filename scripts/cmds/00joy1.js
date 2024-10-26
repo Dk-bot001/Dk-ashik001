@@ -12,9 +12,9 @@
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "জয়") {
+ if (event.body && event.body.toLowerCase() === "Ashik") {
  return message.reply({
- body: "     「জয় বস এখন কাজে বিজি আছেন যা বলার আমাকে বলতে পারেন🤗😚」",
+ body: "     「আশিক বস এখন কাজে বিজি আছেন যা বলার আমাকে বলতে পারেন🤗😚」",
  attachment: await global.utils.getStreamFromURL("https://i.imgur.com/BC9Qr14.jpeg")
  });
  }
